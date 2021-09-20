@@ -13841,7 +13841,7 @@ Shop 42 seems to have regularly sold bulk orders containing 2000 shoes, which is
 <span class="n">INNER</span> <span class="n">JOIN</span> <span class="n">Employees</span>
 <span class="n">USING</span><span class="p">(</span><span class="n">EmployeeID</span><span class="p">)</span>
 <span class="n">GROUP</span> <span class="n">BY</span> <span class="n">Orders</span><span class="o">.</span><span class="n">EmployeeID</span>
-<span class="n">ORDER</span> <span class="n">BY</span> <span class="n">COUNT</span><span class="p">(</span><span class="n">Orders</span><span class="o">.</span><span class="n">EmployeeID</span><span class="p">)</span> <span class="n">Desc</span><span class="p">;</span>
+<span class="n">ORDER</span> <span class="n">BY</span> <span class="n">COUNT</span><span class="p">(</span><span class="n">Orders</span><span class="o">.</span><span class="n">EmployeeID</span><span class="p">)</span> <span class="n">DESC</span><span class="p">;</span>
 </pre></div>
 
     </div>
@@ -13876,7 +13876,7 @@ Shop 42 seems to have regularly sold bulk orders containing 2000 shoes, which is
 <span class="n">INNER</span> <span class="n">JOIN</span> <span class="n">Customers</span> <span class="n">USING</span><span class="p">(</span><span class="n">CustomerID</span><span class="p">)</span>
 <span class="n">WHERE</span> <span class="n">Country</span> <span class="o">=</span> <span class="s1">&#39;Germany&#39;</span>
 <span class="n">GROUP</span> <span class="n">BY</span> <span class="n">Products</span><span class="o">.</span><span class="n">ProductID</span>
-<span class="n">ORDER</span> <span class="n">BY</span>  <span class="n">OrdersCount</span> <span class="n">desc</span>
+<span class="n">ORDER</span> <span class="n">BY</span>  <span class="n">OrdersCount</span> <span class="n">DESC</span><span class="p">;</span>
 </pre></div>
 
     </div>
